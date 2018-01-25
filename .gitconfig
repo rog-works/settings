@@ -1,0 +1,20 @@
+[core]
+	editor = vim
+[user]
+	name = rog-works
+	email = rog_works@yahoo.co.jp
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	ad = add
+	co = checkout
+	df = diff
+	lola = log --graph --decorate --oneline --all
+	puc = !git push origin `git brc`
+	brc = !git br | grep '^*' | awk '{print $2}'
+	us = !git reset HEAD
+	sus = !git br --set-upstream-to=origin/`git brc` `git brc`
+	lss = !git ls-files -t | grep ^S
+	sw = !git update-index --skip-worktree
+	nsw = !git update-index --no-skip-worktree
