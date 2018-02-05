@@ -27,8 +27,8 @@ vkEBsc07B & v::Send,+{Ins}
 
 ; For lite settings
 
-; ~LShift up::Send,{vk1Dsc07B}
-; ~RShift up::Send,{vk1Csc079}
+; LAlt::Send,{vk1Dsc07B}
+; RWin::Send,{vk1Csc079}
 
 ; LAlt & h::Send,{Left}
 ; LAlt & j::Send,{Down}
@@ -39,6 +39,11 @@ vkEBsc07B & v::Send,+{Ins}
 ; LAlt & i::Send,{BS}
 ; LAlt & o::Send,{Home}
 ; LAlt & p::Send,{End}
+
+; For mintty
+
+; LAlt & c::Send,^{Ins}
+; LAlt & v::Send,+{Ins}
 
 ; # For common settings
 
