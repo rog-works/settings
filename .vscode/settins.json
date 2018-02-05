@@ -1,0 +1,37 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+
+// エディター
+
+	"editor.fontSize": 12,
+	"editor.insertSpaces": false,
+	"editor.roundedSelection": false,
+	"editor.wordWrap": "off",
+	"editor.autoClosingBrackets": false,
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
+	"diffEditor.renderSideBySide": false,
+
+// ワークベンチ
+
+	"workbench.sideBar.location": "right",
+	"workbench.iconTheme": "vs-seti",
+
+// ファイル
+
+	"files.eol": "\n",
+
+// 統合ターミナル
+
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+// テレメトリ
+
+	"telemetry.enableTelemetry": false,
+	"telemetry.enableCrashReporter": false,
+
+// Vim
+
+	"vim.disableAnnoyingNeovimMessage": true,
+	"vim.useSystemClipboard": true
+}
