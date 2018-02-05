@@ -1,0 +1,4 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+	{ "key": "ctrl+shift+2",	"command": "workbench.action.terminal.toggleTerminal" }
+]
