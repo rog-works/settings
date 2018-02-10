@@ -13,10 +13,20 @@ vkEBsc07B & j::Send,{Down}
 vkEBsc07B & k::Send,{Up}
 vkEBsc07B & l::Send,{Right}
 
-vkEBsc07B & u::Send,{Del}
-vkEBsc07B & i::Send,{BS}
-vkEBsc07B & o::Send,{Home}
-vkEBsc07B & p::Send,{End}
+vkEBsc07B & u::Send,{-}
+vkEBsc07B & i::Send,{=}
+vkEBsc07B & o::Send,{\}
+vkEBsc07B & p::Send,{vkC0sc029}
+vkEBsc07B & m::Send,{_}
+vkEBsc07B & ,::Send,{+}
+vkEBsc07B & .::Send,{|}
+vkEBsc07B & /::Send,{~}
+RAlt & q::Send,{[}
+RAlt & w::Send,{]}
+RAlt & z::Send,{{}
+RAlt & x::Send,{}}
+RAlt & a::Send,{Home}
+RAlt & s::Send,{End}
 
 LAlt::LWin
 
@@ -27,8 +37,8 @@ vkEBsc07B & v::Send,+{Ins}
 
 ; For lite settings
 
-; LAlt::Send,{vk1Dsc07B}
-; RWin::Send,{vk1Csc079}
+; ~LShift up::Send,{vk1Dsc07B}
+; ~RShift up::Send,{vk1Csc079}
 
 ; LAlt & h::Send,{Left}
 ; LAlt & j::Send,{Down}
@@ -39,11 +49,6 @@ vkEBsc07B & v::Send,+{Ins}
 ; LAlt & i::Send,{BS}
 ; LAlt & o::Send,{Home}
 ; LAlt & p::Send,{End}
-
-; For mintty
-
-; LAlt & c::Send,^{Ins}
-; LAlt & v::Send,+{Ins}
 
 ; # For common settings
 
