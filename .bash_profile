@@ -22,4 +22,4 @@ PS1="\H:\[\033[33m\]\W\[\033[0m\]\`__git_ps1\` \$ "
 # aliases
 alias ll='ls -la'
 alias d='docker'
-alias dco='docker-compose'
+alias doc='docker-compose'
