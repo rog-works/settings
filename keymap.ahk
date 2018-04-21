@@ -1,3 +1,4 @@
+; v1.1.25.02
 ; #InstallKeybdHook taskbar > Open > View > key history
 
 ; vkEBsc07B 無変換
