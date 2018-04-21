@@ -11,25 +11,28 @@ vkEBsc07B & j::Send,{Down}
 vkEBsc07B & k::Send,{Up}
 vkEBsc07B & l::Send,{Right}
 
-vkEBsc07B & u::Send,{-}
-vkEBsc07B & i::Send,{=}
-vkEBsc07B & o::Send,{\}
-vkEBsc07B & p::Send,{vkC0sc029}
-vkEBsc07B & m::Send,{_}
-vkEBsc07B & ,::Send,{+}
-vkEBsc07B & .::Send,{|}
-vkEBsc07B & /::Send,{~}
+vkEBsc07B & u::Send,{Home}
+vkEBsc07B & i::Send,{End}
+
+RAlt & a::Send,{-}
+RAlt & s::Send,{=}
+RAlt & d::Send,{\}
+RAlt & f::Send,{vkC0sc029}
+RAlt & z::Send,{_}
+RAlt & x::Send,{+}
+RAlt & c::Send,{|}
+RAlt & v::Send,{~}
 RAlt & q::Send,{[}
 RAlt & w::Send,{]}
-RAlt & z::Send,{{}
-RAlt & x::Send,{}}
-RAlt & a::Send,{Home}
-RAlt & s::Send,{End}
+RAlt & e::Send,{{}
+RAlt & r::Send,{}}
 
 LAlt::LWin
 
 Del::BS
 BS::Del
+
+~Esc::Send,{vk1Dsc07B}
 
 ; For mintty
 
