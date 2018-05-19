@@ -32,6 +32,8 @@
 
 // Vim
 
-	"vim.disableAnnoyingNeovimMessage": true,
-	"vim.useSystemClipboard": true
+	"vim.useSystemClipboard": true,
+	"vim.handleKeys": {
+		"<C-h>": false
+	}
 }
