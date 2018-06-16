@@ -35,6 +35,8 @@
 	"vim.useSystemClipboard": true,
 	"vim.handleKeys": {
 		"<C-h>": false,
-		"<C-f>": false
+		"<C-f>": false,
+		"<C-n>": false,
+		"<C-a>": false
 	}
 }
